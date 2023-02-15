@@ -1,0 +1,1 @@
+/usr/bin/g++  -g     -o ../bin/Debug/TP3_exe  glimac/libglimac.a glimac/third-party/glfw/src/libglfw3.a -lpthread /usr/lib/x86_64-linux-gnu/librt.so -lm -ldl glimac/libglad.a 

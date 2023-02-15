@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/TP3_exo3_exe.dir/TP3_exo3/exo3_structure_vertex.cpp.o  -o ../bin/Debug/TP3_exo3_exe  glimac/libglimac.a glimac/third-party/glfw/src/libglfw3.a -lpthread /usr/lib/x86_64-linux-gnu/librt.so -lm -ldl glimac/libglad.a 

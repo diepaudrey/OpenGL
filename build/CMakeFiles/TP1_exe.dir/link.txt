@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/TP1_exe.dir/TP1/exo1_triangle_blanc.cpp.o  -o ../bin/Debug/TP1_exe  glimac/libglimac.a glimac/third-party/glfw/src/libglfw3.a -lpthread /usr/lib/x86_64-linux-gnu/librt.so -lm -ldl glimac/libglad.a 

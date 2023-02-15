@@ -1,0 +1,167 @@
+[
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build",
+  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP3_exo3 -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles/TP3_exo3_exe.dir/TP3_exo3/exo3_structure_vertex.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP3_exo3/exo3_structure_vertex.cpp",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP3_exo3/exo3_structure_vertex.cpp"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build",
+  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4 -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles/TP4_exe.dir/TP4/main.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4/main.cpp",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4/main.cpp"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build",
+  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP5 -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles/TP5_exe.dir/TP5/main.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP5/main.cpp",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP5/main.cpp"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build",
+  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP3_exo2 -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles/TP3_exo2_exe.dir/TP3_exo2/exo2_triangle_couleurs.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP3_exo2/exo2_triangle_couleurs.cpp",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP3_exo2/exo2_triangle_couleurs.cpp"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build",
+  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP9 -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles/TP9_exe.dir/TP9/main.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP9/main.cpp",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP9/main.cpp"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build",
+  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP6 -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles/TP6_exe.dir/TP6/main.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP6/main.cpp",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP6/main.cpp"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build",
+  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP7 -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles/TP7_exe.dir/TP7/main.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP7/main.cpp",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP7/main.cpp"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build",
+  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP8 -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles/TP8_exe.dir/TP8/main.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP8/main.cpp",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP8/main.cpp"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build",
+  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP3_exo1 -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles/TP3_exo1_exe.dir/TP3_exo1/exo1_triangle_blanc.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP3_exo1/exo1_triangle_blanc.cpp",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP3_exo1/exo1_triangle_blanc.cpp"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac",
+  "command": "/usr/bin/gcc  -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include  -g   -o CMakeFiles/glad.dir/third-party/glad/src/glad.c.o   -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/src/glad.c",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/src/glad.c"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac",
+  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -o CMakeFiles/glimac.dir/src/Cone.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Cone.cpp",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Cone.cpp"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac",
+  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -o CMakeFiles/glimac.dir/src/Geometry.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Geometry.cpp",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Geometry.cpp"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac",
+  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -o CMakeFiles/glimac.dir/src/Image.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Image.cpp",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Image.cpp"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac",
+  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -o CMakeFiles/glimac.dir/src/Program.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Program.cpp",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Program.cpp"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac",
+  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -o CMakeFiles/glimac.dir/src/Shader.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Shader.cpp",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Shader.cpp"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac",
+  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -o CMakeFiles/glimac.dir/src/Sphere.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Sphere.cpp",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Sphere.cpp"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac",
+  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -o CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/tiny_obj_loader.cpp",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/tiny_obj_loader.cpp"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_USE_CONFIG_H -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src  -g -fPIC   -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/context.c.o   -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/context.c",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/context.c"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_USE_CONFIG_H -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src  -g -fPIC   -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/init.c.o   -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/init.c",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/init.c"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_USE_CONFIG_H -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src  -g -fPIC   -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/input.c.o   -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/input.c",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/input.c"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_USE_CONFIG_H -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src  -g -fPIC   -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/monitor.c.o   -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/monitor.c",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/monitor.c"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_USE_CONFIG_H -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src  -g -fPIC   -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/vulkan.c.o   -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/vulkan.c",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/vulkan.c"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_USE_CONFIG_H -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src  -g -fPIC   -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/window.c.o   -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/window.c",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/window.c"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_USE_CONFIG_H -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/x11_init.c.o   -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/x11_init.c",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/x11_init.c"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_USE_CONFIG_H -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/x11_monitor.c.o   -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/x11_monitor.c",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/x11_monitor.c"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_USE_CONFIG_H -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/x11_window.c.o   -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/x11_window.c",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/x11_window.c"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_USE_CONFIG_H -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/xkb_unicode.c.o   -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/xkb_unicode.c",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/xkb_unicode.c"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_USE_CONFIG_H -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/posix_time.c.o   -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/posix_time.c",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/posix_time.c"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_USE_CONFIG_H -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/posix_thread.c.o   -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/posix_thread.c",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/posix_thread.c"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_USE_CONFIG_H -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/glx_context.c.o   -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/glx_context.c",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/glx_context.c"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_USE_CONFIG_H -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src  -g -fPIC   -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/egl_context.c.o   -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/egl_context.c",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/egl_context.c"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_USE_CONFIG_H -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src  -g -fPIC   -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/osmesa_context.c.o   -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/osmesa_context.c",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/osmesa_context.c"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src",
+  "command": "/usr/bin/gcc -D_DEFAULT_SOURCE -D_GLFW_USE_CONFIG_H -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/third-party/glfw/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/linux_joystick.c.o   -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/linux_joystick.c",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/src/linux_joystick.c"
+}
+]

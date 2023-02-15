@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/TP6_exe.dir/TP6/main.cpp.o  -o ../bin/Debug/TP6_exe  glimac/libglimac.a glimac/third-party/glfw/src/libglfw3.a -lpthread /usr/lib/x86_64-linux-gnu/librt.so -lm -ldl glimac/libglad.a 
