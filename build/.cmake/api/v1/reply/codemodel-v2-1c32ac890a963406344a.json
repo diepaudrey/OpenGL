@@ -27,9 +27,7 @@
 						5,
 						6,
 						7,
-						8,
-						9,
-						10
+						8
 					]
 				},
 				{
@@ -49,8 +47,8 @@
 					"source" : "glimac",
 					"targetIndexes" : 
 					[
-						12,
-						14
+						10,
+						12
 					]
 				},
 				{
@@ -70,7 +68,7 @@
 					"source" : "glimac/third-party/glfw",
 					"targetIndexes" : 
 					[
-						15
+						13
 					]
 				},
 				{
@@ -85,8 +83,8 @@
 					"source" : "glimac/third-party/glfw/src",
 					"targetIndexes" : 
 					[
-						13,
-						16
+						11,
+						14
 					]
 				},
 				{
@@ -100,7 +98,7 @@
 					"source" : "glimac/third-party/glfw/docs",
 					"targetIndexes" : 
 					[
-						11
+						9
 					]
 				},
 				{
@@ -154,10 +152,8 @@
 						6,
 						7,
 						8,
-						9,
 						10,
-						12,
-						14
+						12
 					]
 				},
 				{
@@ -171,10 +167,10 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
+						9,
 						11,
 						13,
-						15,
-						16
+						14
 					]
 				},
 				{
@@ -189,20 +185,6 @@
 			],
 			"targets" : 
 			[
-				{
-					"directoryIndex" : 0,
-					"id" : "TP2_exe::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TP2_exe-Debug-952486ad4d9ff8b3eb0b.json",
-					"name" : "TP2_exe",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "TP3_exe::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TP3_exe-Debug-d8521a76654aa42ea6ad.json",
-					"name" : "TP3_exe",
-					"projectIndex" : 0
-				},
 				{
 					"directoryIndex" : 0,
 					"id" : "TP3_exo1_exe::@6890427a1f51a3e7e1df",
@@ -227,42 +209,42 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "TP4_exe::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TP4_exe-Debug-923bfcb9075adf047dd4.json",
+					"jsonFile" : "target-TP4_exe-Debug-3b96f3dcffe72ea86c1a.json",
 					"name" : "TP4_exe",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "TP5_exe::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TP5_exe-Debug-ce42081e2a9c402b63d1.json",
+					"jsonFile" : "target-TP5_exe-Debug-dadb5ab9211117d85ccd.json",
 					"name" : "TP5_exe",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "TP6_exe::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TP6_exe-Debug-70b15705e14bebc26846.json",
+					"jsonFile" : "target-TP6_exe-Debug-10899f86eb846a7278b7.json",
 					"name" : "TP6_exe",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "TP7_exe::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TP7_exe-Debug-41ab6f6b411fe7a516a2.json",
+					"jsonFile" : "target-TP7_exe-Debug-c7c921efa0db5b7db194.json",
 					"name" : "TP7_exe",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "TP8_exe::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TP8_exe-Debug-2549a98964aeec51b360.json",
+					"jsonFile" : "target-TP8_exe-Debug-65c85be1559c4b621ea0.json",
 					"name" : "TP8_exe",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "TP9_exe::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TP9_exe-Debug-8f90cc98d40f9c9c5987.json",
+					"jsonFile" : "target-TP9_exe-Debug-fa6d3503ec4ffc6e5da6.json",
 					"name" : "TP9_exe",
 					"projectIndex" : 0
 				},

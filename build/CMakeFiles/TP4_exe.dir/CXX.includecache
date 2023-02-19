@@ -6,6 +6,30 @@
 
 #IncludeRegexTransform: 
 
+../glimac/glimac/FilePath.hpp
+string
+-
+iostream
+-
+
+../glimac/glimac/Program.hpp
+GLFW/glfw3.h
+-
+Shader.hpp
+../glimac/glimac/Shader.hpp
+FilePath.hpp
+../glimac/glimac/FilePath.hpp
+
+../glimac/glimac/Shader.hpp
+GLFW/glfw3.h
+-
+string
+-
+FilePath.hpp
+../glimac/glimac/FilePath.hpp
+glad/glad.h
+-
+
 ../glimac/third-party/glad/include/KHR/khrplatform.h
 stdint.h
 -
@@ -66,5 +90,9 @@ GL/glext.h
 GLFW/glfw3.h
 -
 glad/glad.h
+-
+glimac/Program.hpp
+-
+glimac/FilePath.hpp
 -
 

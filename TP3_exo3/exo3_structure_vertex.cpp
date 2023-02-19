@@ -101,14 +101,14 @@ int main([[maybe_unused]]int argc, [[maybe_unused]]char* argv[])
     //  0.5f,-0.5f, 0.f,  1.f, 0.f, //deuxieme sommet
     //  0.0f, 0.5f, 0.f, 0.f, 1.f}; //troisieme sommet
 
-    //For a triangle
+    /*------FOR TRIANGLE------*/
     // Vertex2DColor vertices[] = {
     //     Vertex2DColor(glm::vec2(-0.5,-0.5), glm::vec3(1,0,0)),
     //     Vertex2DColor(glm::vec2(0.5,-0.5), glm::vec3(0,1,0)),
     //     Vertex2DColor(glm::vec2(0,0.5), glm::vec3(0,0,1)),
     // };
 
-    //For a quad
+    /*-----FOR A QUAD-------*/
     // Vertex2DColor vertices[] = {
     //     Vertex2DColor(glm::vec2(-0.5,-0.5), glm::vec3(1,0,0)),
     //     Vertex2DColor(glm::vec2(0.5,-0.5), glm::vec3(0,1,0)),
@@ -119,33 +119,144 @@ int main([[maybe_unused]]int argc, [[maybe_unused]]char* argv[])
     //     Vertex2DColor(glm::vec2(0.5,-0.5), glm::vec3(0,1,0))
     // };
 
-    //For a disk
+
+
+
+    /*------------FOR A DISK---------------------*/
+    // const int N = 30;
+    // const float angle = (2*glm::pi<float>())/N;
+    // const float radius = 0.5;
+    // std::vector<Vertex2DColor> vertices(3*N, Vertex2DColor());
+
+    // for(int i=0; i<N; i++){
+    //     //std::cout << "i : " << i <<std::endl;
+
+    //     /* CODE POUR CERCLE SANS IBO*/
+    //     // if(i!=3*N-1){
+    //     //     vertices[i*3+0] = Vertex2DColor(glm::vec2(0,0), glm::vec3(0,0,0));
+    //     //     vertices[i*3+1] = Vertex2DColor(glm::vec2(radius*glm::cos(i*angle),radius*glm::sin(i*angle)), glm::vec3(1,0,0));
+    //     //     vertices[i*3+2] = Vertex2DColor(glm::vec2(radius*glm::cos((i+1)*angle),radius*glm::sin((i+1)*angle)), glm::vec3(1,0,0));
+    //     // }
+    //     // else{
+    //     //     vertices[3*N-1] = Vertex2DColor(glm::vec2(radius,0),glm::vec3(1,0,0));
+    //     // }
+        
+        
+    // }
+
+    // //Modifier 2e argument en fonction du nombre de sommets
+    // glBufferData(GL_ARRAY_BUFFER, 3*N*sizeof(Vertex2DColor), vertices.data(), GL_STATIC_DRAW);
+
+    // glBindBuffer(0,vbo);
+
+    // //création VAO
+    // GLuint vao;
+    // glGenVertexArrays(1, &vao);
+    // glBindVertexArray(vao);
+
+    // const GLuint VERTEX_ATTR_POSITION = 3;
+    // glEnableVertexAttribArray(VERTEX_ATTR_POSITION);
+
+    // const GLuint VERTEX_ATTR_COLOR = 8;
+    // glEnableVertexAttribArray(VERTEX_ATTR_COLOR);
+
+    // //Spécification des attributs de vertex
+
+    // glBindBuffer(GL_ARRAY_BUFFER, vbo);
+
+    // glVertexAttribPointer(VERTEX_ATTR_POSITION,2,GL_FLOAT, GL_FALSE, sizeof(Vertex2DColor), 0);
+
+    // glVertexAttribPointer(VERTEX_ATTR_COLOR,3,GL_FLOAT, GL_FALSE, sizeof(Vertex2DColor), (const GLvoid*)(offsetof(Vertex2DColor, color)) );
+
+    
+
+    // glBindBuffer(0, vbo);
+
+    // glBindVertexArray(0);
+
+
+    // //Change shaders
+    
+    // FilePath applicationPath("/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP3_exo3");
+    // Program program = loadProgram(applicationPath.dirPath() + "TP3_exo3/shaders/triangle.vs.glsl",
+    //                           applicationPath.dirPath() + "TP3_exo3/shaders/triangle.fs.glsl");
+    // program.use();
+
+
+
+    // /* Loop until the user closes the window */
+    // while (!glfwWindowShouldClose(window)) {
+    //     glClearColor(1.f, 0.5f, 0.5f, 1.f);
+    //     glClear(GL_COLOR_BUFFER_BIT);
+
+    //     //RENDERING CODE
+    //     glBindVertexArray(vao);
+    //     //Modifier le 2e arg en fonction du nombre de sommet
+    //     glDrawArrays(GL_TRIANGLES, 0, N*3);
+    //     glBindVertexArray(0);
+
+
+    //     /* Swap front and back buffers */
+    //     glfwSwapBuffers(window);
+    //     /* Poll for and process events */
+    //     glfwPollEvents();
+    // }
+    // glDeleteBuffers(0,&vbo);
+    // glDeleteVertexArrays(0,&vao);
+
+    // glfwTerminate();
+    // return 0;
+
+
+
+
+
+     /*------------FOR A DISK WITH IBO---------------------*/
     const int N = 30;
     const float angle = (2*glm::pi<float>())/N;
     const float radius = 0.5;
-    std::vector<Vertex2DColor> vertices(30);
+    std::vector<Vertex2DColor> vertices(N+1, Vertex2DColor());
 
-    for(int i=1; i<2*N; i++){
-        //std::cout << "i : " << i << std::endl;
-        if(i%3!=0){
-            vertices[i] = Vertex2DColor(glm::vec2(radius*glm::cos(i*angle),radius*glm::sin(i*angle)), glm::vec3(1,0,0));
-            
-        }
-        else{
-            vertices[i] = Vertex2DColor(glm::vec2(0,0), glm::vec3(0,0,0));
-        }
+
+    for(int i=0; i<N+1; i++){
+    
+        vertices[i] = Vertex2DColor(glm::vec2(radius*glm::cos(i*angle),radius*glm::sin(i*angle)), glm::vec3(1,0,0));
+        
         
     }
 
     //Modifier 2e argument en fonction du nombre de sommets
-    glBufferData(GL_ARRAY_BUFFER, 3*N*sizeof(Vertex2DColor), vertices.data(), GL_STATIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, (N+1)*sizeof(Vertex2DColor), vertices.data(), GL_STATIC_DRAW);
 
     glBindBuffer(0,vbo);
+
+    //creation du IBO
+    GLuint ibo;
+    glGenBuffers(1,&ibo);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ibo);
+
+    uint32_t indices[3*N];
+    //fill the array indices
+    for(int i=0; i<N-1; i++){
+
+        indices[i*3+0] = 0;
+        indices[i*3+1] = i+1;
+        indices[i*3+2] = i+2;
+    }
+    //last triangle
+    indices[3*N-3] = 0;
+    indices[3*N-2] = 30;
+    indices[3*N-1] = 1;
+
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, 3*N * sizeof(uint32_t), indices, GL_STATIC_DRAW);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
 
     //création VAO
     GLuint vao;
     glGenVertexArrays(1, &vao);
     glBindVertexArray(vao);
+
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ibo);
 
     const GLuint VERTEX_ATTR_POSITION = 3;
     glEnableVertexAttribArray(VERTEX_ATTR_POSITION);
@@ -160,8 +271,6 @@ int main([[maybe_unused]]int argc, [[maybe_unused]]char* argv[])
     glVertexAttribPointer(VERTEX_ATTR_POSITION,2,GL_FLOAT, GL_FALSE, sizeof(Vertex2DColor), 0);
 
     glVertexAttribPointer(VERTEX_ATTR_COLOR,3,GL_FLOAT, GL_FALSE, sizeof(Vertex2DColor), (const GLvoid*)(offsetof(Vertex2DColor, color)) );
-
-    
 
     glBindBuffer(0, vbo);
 
@@ -185,7 +294,8 @@ int main([[maybe_unused]]int argc, [[maybe_unused]]char* argv[])
         //RENDERING CODE
         glBindVertexArray(vao);
         //Modifier le 2e arg en fonction du nombre de sommet
-        glDrawArrays(GL_TRIANGLES, 0, N*3);
+
+        glDrawElements(GL_TRIANGLES, 3*N, GL_UNSIGNED_INT, 0);
         glBindVertexArray(0);
 
 

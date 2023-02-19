@@ -1,8 +1,6 @@
 /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/CMakeFiles/install/strip.dir
 /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/CMakeFiles/install/local.dir
 /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/CMakeFiles/TP3_exo3_exe.dir
-/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/CMakeFiles/TP2_exe.dir
-/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/CMakeFiles/TP3_exe.dir
 /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/CMakeFiles/TP4_exe.dir
 /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/CMakeFiles/list_install_components.dir
 /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/CMakeFiles/TP5_exe.dir

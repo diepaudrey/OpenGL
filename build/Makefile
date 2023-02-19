@@ -171,32 +171,6 @@ TP3_exo3_exe/fast:
 .PHONY : TP3_exo3_exe/fast
 
 #=============================================================================
-# Target rules for targets named TP2_exe
-
-# Build rule for target.
-TP2_exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP2_exe
-.PHONY : TP2_exe
-
-# fast build rule for target.
-TP2_exe/fast:
-	$(MAKE) -f CMakeFiles/TP2_exe.dir/build.make CMakeFiles/TP2_exe.dir/build
-.PHONY : TP2_exe/fast
-
-#=============================================================================
-# Target rules for targets named TP3_exe
-
-# Build rule for target.
-TP3_exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP3_exe
-.PHONY : TP3_exe
-
-# fast build rule for target.
-TP3_exe/fast:
-	$(MAKE) -f CMakeFiles/TP3_exe.dir/build.make CMakeFiles/TP3_exe.dir/build
-.PHONY : TP3_exe/fast
-
-#=============================================================================
 # Target rules for targets named TP4_exe
 
 # Build rule for target.
@@ -630,8 +604,6 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... TP3_exo3_exe"
-	@echo "... TP2_exe"
-	@echo "... TP3_exe"
 	@echo "... TP4_exe"
 	@echo "... list_install_components"
 	@echo "... TP5_exe"
