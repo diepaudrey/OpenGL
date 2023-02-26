@@ -158,6 +158,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named TP4_mandelbrot_exe
+
+# Build rule for target.
+TP4_mandelbrot_exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP4_mandelbrot_exe
+.PHONY : TP4_mandelbrot_exe
+
+# fast build rule for target.
+TP4_mandelbrot_exe/fast:
+	$(MAKE) -f CMakeFiles/TP4_mandelbrot_exe.dir/build.make CMakeFiles/TP4_mandelbrot_exe.dir/build
+.PHONY : TP4_mandelbrot_exe/fast
+
+#=============================================================================
 # Target rules for targets named TP3_exo3_exe
 
 # Build rule for target.
@@ -171,6 +184,19 @@ TP3_exo3_exe/fast:
 .PHONY : TP3_exo3_exe/fast
 
 #=============================================================================
+# Target rules for targets named TP4_suite_exe
+
+# Build rule for target.
+TP4_suite_exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP4_suite_exe
+.PHONY : TP4_suite_exe
+
+# fast build rule for target.
+TP4_suite_exe/fast:
+	$(MAKE) -f CMakeFiles/TP4_suite_exe.dir/build.make CMakeFiles/TP4_suite_exe.dir/build
+.PHONY : TP4_suite_exe/fast
+
+#=============================================================================
 # Target rules for targets named TP4_exe
 
 # Build rule for target.
@@ -182,19 +208,6 @@ TP4_exe: cmake_check_build_system
 TP4_exe/fast:
 	$(MAKE) -f CMakeFiles/TP4_exe.dir/build.make CMakeFiles/TP4_exe.dir/build
 .PHONY : TP4_exe/fast
-
-#=============================================================================
-# Target rules for targets named TP5_exe
-
-# Build rule for target.
-TP5_exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TP5_exe
-.PHONY : TP5_exe
-
-# fast build rule for target.
-TP5_exe/fast:
-	$(MAKE) -f CMakeFiles/TP5_exe.dir/build.make CMakeFiles/TP5_exe.dir/build
-.PHONY : TP5_exe/fast
 
 #=============================================================================
 # Target rules for targets named TP3_exo2_exe
@@ -460,32 +473,59 @@ TP4/main.cpp.s:
 	$(MAKE) -f CMakeFiles/TP4_exe.dir/build.make CMakeFiles/TP4_exe.dir/TP4/main.cpp.s
 .PHONY : TP4/main.cpp.s
 
-TP5/main.o: TP5/main.cpp.o
+TP4_mandelbrot/main.o: TP4_mandelbrot/main.cpp.o
 
-.PHONY : TP5/main.o
+.PHONY : TP4_mandelbrot/main.o
 
 # target to build an object file
-TP5/main.cpp.o:
-	$(MAKE) -f CMakeFiles/TP5_exe.dir/build.make CMakeFiles/TP5_exe.dir/TP5/main.cpp.o
-.PHONY : TP5/main.cpp.o
+TP4_mandelbrot/main.cpp.o:
+	$(MAKE) -f CMakeFiles/TP4_mandelbrot_exe.dir/build.make CMakeFiles/TP4_mandelbrot_exe.dir/TP4_mandelbrot/main.cpp.o
+.PHONY : TP4_mandelbrot/main.cpp.o
 
-TP5/main.i: TP5/main.cpp.i
+TP4_mandelbrot/main.i: TP4_mandelbrot/main.cpp.i
 
-.PHONY : TP5/main.i
+.PHONY : TP4_mandelbrot/main.i
 
 # target to preprocess a source file
-TP5/main.cpp.i:
-	$(MAKE) -f CMakeFiles/TP5_exe.dir/build.make CMakeFiles/TP5_exe.dir/TP5/main.cpp.i
-.PHONY : TP5/main.cpp.i
+TP4_mandelbrot/main.cpp.i:
+	$(MAKE) -f CMakeFiles/TP4_mandelbrot_exe.dir/build.make CMakeFiles/TP4_mandelbrot_exe.dir/TP4_mandelbrot/main.cpp.i
+.PHONY : TP4_mandelbrot/main.cpp.i
 
-TP5/main.s: TP5/main.cpp.s
+TP4_mandelbrot/main.s: TP4_mandelbrot/main.cpp.s
 
-.PHONY : TP5/main.s
+.PHONY : TP4_mandelbrot/main.s
 
 # target to generate assembly for a file
-TP5/main.cpp.s:
-	$(MAKE) -f CMakeFiles/TP5_exe.dir/build.make CMakeFiles/TP5_exe.dir/TP5/main.cpp.s
-.PHONY : TP5/main.cpp.s
+TP4_mandelbrot/main.cpp.s:
+	$(MAKE) -f CMakeFiles/TP4_mandelbrot_exe.dir/build.make CMakeFiles/TP4_mandelbrot_exe.dir/TP4_mandelbrot/main.cpp.s
+.PHONY : TP4_mandelbrot/main.cpp.s
+
+TP4_suite/main.o: TP4_suite/main.cpp.o
+
+.PHONY : TP4_suite/main.o
+
+# target to build an object file
+TP4_suite/main.cpp.o:
+	$(MAKE) -f CMakeFiles/TP4_suite_exe.dir/build.make CMakeFiles/TP4_suite_exe.dir/TP4_suite/main.cpp.o
+.PHONY : TP4_suite/main.cpp.o
+
+TP4_suite/main.i: TP4_suite/main.cpp.i
+
+.PHONY : TP4_suite/main.i
+
+# target to preprocess a source file
+TP4_suite/main.cpp.i:
+	$(MAKE) -f CMakeFiles/TP4_suite_exe.dir/build.make CMakeFiles/TP4_suite_exe.dir/TP4_suite/main.cpp.i
+.PHONY : TP4_suite/main.cpp.i
+
+TP4_suite/main.s: TP4_suite/main.cpp.s
+
+.PHONY : TP4_suite/main.s
+
+# target to generate assembly for a file
+TP4_suite/main.cpp.s:
+	$(MAKE) -f CMakeFiles/TP4_suite_exe.dir/build.make CMakeFiles/TP4_suite_exe.dir/TP4_suite/main.cpp.s
+.PHONY : TP4_suite/main.cpp.s
 
 TP6/main.o: TP6/main.cpp.o
 
@@ -603,10 +643,11 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
+	@echo "... TP4_mandelbrot_exe"
 	@echo "... TP3_exo3_exe"
-	@echo "... TP4_exe"
+	@echo "... TP4_suite_exe"
 	@echo "... list_install_components"
-	@echo "... TP5_exe"
+	@echo "... TP4_exe"
 	@echo "... TP3_exo2_exe"
 	@echo "... TP9_exe"
 	@echo "... TP6_exe"
@@ -634,9 +675,12 @@ help:
 	@echo "... TP4/main.o"
 	@echo "... TP4/main.i"
 	@echo "... TP4/main.s"
-	@echo "... TP5/main.o"
-	@echo "... TP5/main.i"
-	@echo "... TP5/main.s"
+	@echo "... TP4_mandelbrot/main.o"
+	@echo "... TP4_mandelbrot/main.i"
+	@echo "... TP4_mandelbrot/main.s"
+	@echo "... TP4_suite/main.o"
+	@echo "... TP4_suite/main.i"
+	@echo "... TP4_suite/main.s"
 	@echo "... TP6/main.o"
 	@echo "... TP6/main.i"
 	@echo "... TP6/main.s"

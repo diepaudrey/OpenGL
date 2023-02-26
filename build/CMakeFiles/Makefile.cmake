@@ -79,9 +79,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/TP4_mandelbrot_exe.dir/DependInfo.cmake"
   "CMakeFiles/TP3_exo3_exe.dir/DependInfo.cmake"
+  "CMakeFiles/TP4_suite_exe.dir/DependInfo.cmake"
   "CMakeFiles/TP4_exe.dir/DependInfo.cmake"
-  "CMakeFiles/TP5_exe.dir/DependInfo.cmake"
   "CMakeFiles/TP3_exo2_exe.dir/DependInfo.cmake"
   "CMakeFiles/TP9_exe.dir/DependInfo.cmake"
   "CMakeFiles/TP6_exe.dir/DependInfo.cmake"

@@ -1,18 +1,23 @@
 [
 {
   "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build",
+  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_mandelbrot -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles/TP4_mandelbrot_exe.dir/TP4_mandelbrot/main.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_mandelbrot/main.cpp",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_mandelbrot/main.cpp"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build",
   "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP3_exo3 -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles/TP3_exo3_exe.dir/TP3_exo3/exo3_structure_vertex.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP3_exo3/exo3_structure_vertex.cpp",
   "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP3_exo3/exo3_structure_vertex.cpp"
 },
 {
   "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build",
-  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4 -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles/TP4_exe.dir/TP4/main.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4/main.cpp",
-  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4/main.cpp"
+  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_suite -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles/TP4_suite_exe.dir/TP4_suite/main.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_suite/main.cpp",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_suite/main.cpp"
 },
 {
   "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build",
-  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP5 -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles/TP5_exe.dir/TP5/main.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP5/main.cpp",
-  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP5/main.cpp"
+  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4 -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -Werror -W -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles/TP4_exe.dir/TP4/main.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4/main.cpp",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4/main.cpp"
 },
 {
   "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build",

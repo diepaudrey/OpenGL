@@ -94,10 +94,14 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # MY_SOURCES at CMakeLists.txt:26 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP5/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_mandelbrot/*")
 set(OLD_GLOB
-  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP5/main.cpp"
-  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP5/shaders/shader.fs.glsl"
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_mandelbrot/main.cpp"
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_mandelbrot/shaders/color2D.fs.glsl"
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_mandelbrot/shaders/color2D.vs.glsl"
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_mandelbrot/shaders/mandelbrot.fs.glsl"
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_mandelbrot/shaders/mandelbrot.vs.glsl"
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_mandelbrot/shaders/shader.fs.glsl"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -105,9 +109,36 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # FILES at CMakeUtils/files_and_folders.cmake:43 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP5/shaders/*")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_mandelbrot/shaders/*")
 set(OLD_GLOB
-  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP5/shaders/shader.fs.glsl"
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_mandelbrot/shaders/color2D.fs.glsl"
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_mandelbrot/shaders/color2D.vs.glsl"
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_mandelbrot/shaders/mandelbrot.fs.glsl"
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_mandelbrot/shaders/mandelbrot.vs.glsl"
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_mandelbrot/shaders/shader.fs.glsl"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# MY_SOURCES at CMakeLists.txt:26 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_suite/*")
+set(OLD_GLOB
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_suite/main.cpp"
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_suite/shaders/text2D.fs.glsl"
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_suite/shaders/text2D.vs.glsl"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/CMakeFiles/cmake.verify_globs")
+endif()
+
+# FILES at CMakeUtils/files_and_folders.cmake:43 (file)
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_suite/shaders/*")
+set(OLD_GLOB
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_suite/shaders/text2D.fs.glsl"
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP4_suite/shaders/text2D.vs.glsl"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -118,7 +149,8 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP6/*")
 set(OLD_GLOB
   "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP6/main.cpp"
-  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP6/shaders/shader.fs.glsl"
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP6/shaders/3D.vs.glsl"
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP6/shaders/normals.fs.glsl"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -128,7 +160,8 @@ endif()
 # FILES at CMakeUtils/files_and_folders.cmake:43 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP6/shaders/*")
 set(OLD_GLOB
-  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP6/shaders/shader.fs.glsl"
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP6/shaders/3D.vs.glsl"
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/TP6/shaders/normals.fs.glsl"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -207,12 +240,14 @@ endif()
 # FILES at CMakeUtils/files_and_folders.cmake:43 (file)
 # FILES at CMakeUtils/files_and_folders.cmake:43 (file)
 # FILES at CMakeUtils/files_and_folders.cmake:43 (file)
+# FILES at CMakeUtils/files_and_folders.cmake:43 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/assets/*")
 set(OLD_GLOB
   "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/assets/models/cornell_box.mtl"
   "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/assets/models/cornell_box.obj"
   "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/assets/models/cube.mtl"
   "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/assets/models/cube.obj"
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/assets/textures/triforce.png"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/TP4_suite_exe.dir/TP4_suite/main.cpp.o  -o ../bin/Debug/TP4_suite_exe  glimac/libglimac.a glimac/third-party/glfw/src/libglfw3.a -lpthread /usr/lib/x86_64-linux-gnu/librt.so -lm -ldl glimac/libglad.a 

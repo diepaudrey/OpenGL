@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "DUMMY_assets/models/cornell_box.obj_TP3_exo1_exe"
   "DUMMY_assets/models/cube.mtl_TP3_exo1_exe"
   "DUMMY_assets/models/cube.obj_TP3_exo1_exe"
+  "DUMMY_assets/textures/triforce.png_TP3_exo1_exe"
 )
 
 # Per-language clean rules from dependency scanning.
