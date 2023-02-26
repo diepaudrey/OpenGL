@@ -88,9 +88,15 @@ int main([[maybe_unused]]int argc, [[maybe_unused]]char* argv[])
     glGenVertexArrays(1, &vao);
     glBindVertexArray(vao);
     const GLuint VERTEX_ATTR_POSITION = 0;
+    const GLuint VERTEX_ATTR_NORMAL = 1;
+    const GLuint VERTEX_ATTR_TEXCOORDS = 2;
     glEnableVertexAttribArray(VERTEX_ATTR_POSITION);
+    glEnableVertexAttribArray(VERTEX_ATTR_NORMAL);
+    glEnableVertexAttribArray(VERTEX_ATTR_TEXCOORDS);
     glBindBuffer(GL_ARRAY_BUFFER, vbo);
     glVertexAttribPointer(VERTEX_ATTR_POSITION,3,GL_FLOAT, GL_FALSE, sizeof(glimac::ShapeVertex), (const GLvoid*)(offsetof(glimac::ShapeVertex,position)));
+    glVertexAttribPointer(VERTEX_ATTR_NORMAL, 3, GL_FLOAT, GL_FALSE, sizeof(glimac::ShapeVertex), (const GLvoid*)(offsetof(glimac::ShapeVertex, normal)));
+    glVertexAttribPointer(VERTEX_ATTR_TEXCOORDS, 2, GL_FLOAT, GL_FALSE, sizeof(glimac::ShapeVertex), (const GLvoid*)(offsetof(glimac::ShapeVertex, texCoords)));
 
     glBindBuffer(0, vbo);
     glBindVertexArray(0);
@@ -116,7 +122,7 @@ int main([[maybe_unused]]int argc, [[maybe_unused]]char* argv[])
 
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window)) {
-        glClearColor(0.f, 0.f, 0.f, 0.f);
+        glClearColor(0.f, 0.f, 0.f, 1.f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         
