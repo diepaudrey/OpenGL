@@ -295,6 +295,33 @@ src/Program.cpp.s:
 	cd /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/Program.cpp.s
 .PHONY : src/Program.cpp.s
 
+src/SDLWindowManager.o: src/SDLWindowManager.cpp.o
+
+.PHONY : src/SDLWindowManager.o
+
+# target to build an object file
+src/SDLWindowManager.cpp.o:
+	cd /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.o
+.PHONY : src/SDLWindowManager.cpp.o
+
+src/SDLWindowManager.i: src/SDLWindowManager.cpp.i
+
+.PHONY : src/SDLWindowManager.i
+
+# target to preprocess a source file
+src/SDLWindowManager.cpp.i:
+	cd /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.i
+.PHONY : src/SDLWindowManager.cpp.i
+
+src/SDLWindowManager.s: src/SDLWindowManager.cpp.s
+
+.PHONY : src/SDLWindowManager.s
+
+# target to generate assembly for a file
+src/SDLWindowManager.cpp.s:
+	cd /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build && $(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.s
+.PHONY : src/SDLWindowManager.cpp.s
+
 src/Shader.o: src/Shader.cpp.o
 
 .PHONY : src/Shader.o
@@ -429,6 +456,9 @@ help:
 	@echo "... src/Program.o"
 	@echo "... src/Program.i"
 	@echo "... src/Program.s"
+	@echo "... src/SDLWindowManager.o"
+	@echo "... src/SDLWindowManager.i"
+	@echo "... src/SDLWindowManager.s"
 	@echo "... src/Shader.o"
 	@echo "... src/Shader.i"
 	@echo "... src/Shader.s"

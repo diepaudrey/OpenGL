@@ -76,6 +76,11 @@
 },
 {
   "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac",
+  "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -o CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/SDLWindowManager.cpp",
+  "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/SDLWindowManager.cpp"
+},
+{
+  "directory": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac",
   "command": "/usr/bin/g++   -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/../glimac -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glfw/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glad/include -I/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/third-party/glm  -g   -o CMakeFiles/glimac.dir/src/Shader.cpp.o -c /home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Shader.cpp",
   "file": "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Shader.cpp"
 },

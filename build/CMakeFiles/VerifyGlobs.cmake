@@ -261,6 +261,7 @@ set(OLD_GLOB
   "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Geometry.cpp"
   "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Image.cpp"
   "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Program.cpp"
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/SDLWindowManager.cpp"
   "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Shader.cpp"
   "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Sphere.cpp"
   "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/desktop.ini"

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Geometry.cpp" "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/CMakeFiles/glimac.dir/src/Geometry.cpp.o"
   "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Image.cpp" "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/CMakeFiles/glimac.dir/src/Image.cpp.o"
   "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Program.cpp" "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/CMakeFiles/glimac.dir/src/Program.cpp.o"
+  "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/SDLWindowManager.cpp" "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/CMakeFiles/glimac.dir/src/SDLWindowManager.cpp.o"
   "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Shader.cpp" "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/CMakeFiles/glimac.dir/src/Shader.cpp.o"
   "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/Sphere.cpp" "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/CMakeFiles/glimac.dir/src/Sphere.cpp.o"
   "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/glimac/src/tiny_obj_loader.cpp" "/home/audrey/Documents/IMAC/S4/openGL/glimac-glfw/build/glimac/CMakeFiles/glimac.dir/src/tiny_obj_loader.cpp.o"

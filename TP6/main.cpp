@@ -114,10 +114,7 @@ int main([[maybe_unused]]int argc, [[maybe_unused]]char* argv[])
     glEnable(GL_DEPTH_TEST);
 
     float ratio_window = (float)(window_width/window_height);
-    glm::mat4 ProjMatrix = glm::perspective(glm::radians(70.f), ratio_window , 0.1f, 100.f );
-    glm::mat4 MVMatrix = glm::translate(glm::mat4(1.0f), glm::vec3(0.f,0.f,-5.f));
-    glm::mat4 NormalMatrix = glm::transpose(glm::inverse(MVMatrix));
-
+    
 
 
     /* Loop until the user closes the window */
@@ -125,15 +122,29 @@ int main([[maybe_unused]]int argc, [[maybe_unused]]char* argv[])
         glClearColor(0.f, 0.f, 0.f, 1.f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        
+        glBindVertexArray(vao);
+
+        glm::mat4 ProjMatrix = glm::perspective(glm::radians(70.f), ratio_window , 0.1f, 100.f );
+        glm::mat4 MVMatrix = glm::translate(glm::mat4(1.0f), glm::vec3(0.f,0.f,-5.f));
+        glm::mat4 NormalMatrix = glm::transpose(glm::inverse(MVMatrix));
+
 
         glUniformMatrix4fv(uMVPMatrix,1, GL_FALSE, glm::value_ptr(ProjMatrix*MVMatrix));
         glUniformMatrix4fv(uMVMatrix,1, GL_FALSE, glm::value_ptr(MVMatrix));
         glUniformMatrix4fv(uNormalMatrix,1, GL_FALSE, glm::value_ptr(NormalMatrix));
 
-        glBindVertexArray(vao);
+        glDrawArrays(GL_TRIANGLES,0,sphere.getVertexCount());
+
+        MVMatrix = glm::rotate(MVMatrix, (float)glfwGetTime(), glm::vec3(0.0f, 1.0f,0.0f));
+        MVMatrix = glm::translate(MVMatrix, glm::vec3(-2.0f,0.0f,0.0f));
+        MVMatrix = glm::scale(MVMatrix, glm::vec3(0.2f,0.2f,0.2f));
+
+        glUniformMatrix4fv(uMVPMatrix,1, GL_FALSE, glm::value_ptr(ProjMatrix*MVMatrix));
+        glUniformMatrix4fv(uMVMatrix,1, GL_FALSE, glm::value_ptr(MVMatrix));
+        glUniformMatrix4fv(uNormalMatrix,1, GL_FALSE, glm::value_ptr(NormalMatrix));
 
         glDrawArrays(GL_TRIANGLES,0,sphere.getVertexCount());
+
 
         glBindVertexArray(0);
 
