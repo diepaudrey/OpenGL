@@ -115,7 +115,15 @@ int main([[maybe_unused]]int argc, [[maybe_unused]]char* argv[])
 
     float ratio_window = (float)(window_width/window_height);
     
+    //random rotation axes for 32 moons
+    std::vector<glm::vec3> axes;
+    int nbMoons = 5;
 
+    for(int i = 0; i<nbMoons; i++){
+        axes.push_back(glm::sphericalRand(1.5f));
+        std::cout << "axes[i] : " << axes[i] << std::endl;
+    }
+    
 
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window)) {
@@ -135,15 +143,21 @@ int main([[maybe_unused]]int argc, [[maybe_unused]]char* argv[])
 
         glDrawArrays(GL_TRIANGLES,0,sphere.getVertexCount());
 
-        MVMatrix = glm::rotate(MVMatrix, (float)glfwGetTime(), glm::vec3(0.0f, 1.0f,0.0f));
-        MVMatrix = glm::translate(MVMatrix, glm::vec3(-2.0f,0.0f,0.0f));
-        MVMatrix = glm::scale(MVMatrix, glm::vec3(0.2f,0.2f,0.2f));
+        for(int i = 0; i<nbMoons; i++){
+            MVMatrix = glm::rotate(glm::translate(glm::mat4(1.0f), glm::vec3(0.f,0.f,-5.f)), (float)glfwGetTime(), axes[i]);
+            MVMatrix = glm::translate(MVMatrix, glm::vec3(-2.0f,0.0f,0.0f));
+            MVMatrix = glm::scale(MVMatrix, glm::vec3(0.2f,0.2f,0.2f));
 
-        glUniformMatrix4fv(uMVPMatrix,1, GL_FALSE, glm::value_ptr(ProjMatrix*MVMatrix));
-        glUniformMatrix4fv(uMVMatrix,1, GL_FALSE, glm::value_ptr(MVMatrix));
-        glUniformMatrix4fv(uNormalMatrix,1, GL_FALSE, glm::value_ptr(NormalMatrix));
+            glUniformMatrix4fv(uMVPMatrix,1, GL_FALSE, glm::value_ptr(ProjMatrix*MVMatrix));
+            glUniformMatrix4fv(uMVMatrix,1, GL_FALSE, glm::value_ptr(MVMatrix));
+            glUniformMatrix4fv(uNormalMatrix,1, GL_FALSE, glm::value_ptr(NormalMatrix));
 
-        glDrawArrays(GL_TRIANGLES,0,sphere.getVertexCount());
+            glDrawArrays(GL_TRIANGLES,0,sphere.getVertexCount());
+
+        }
+
+
+       
 
 
         glBindVertexArray(0);
